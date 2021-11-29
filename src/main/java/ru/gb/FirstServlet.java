@@ -15,6 +15,8 @@ public class FirstServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.getWriter().printf("hello world spring");
+        resp.getWriter().printf("hello world spring");
+        resp.getWriter().printf("hello world spring");
 
     }
 }
